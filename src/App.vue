@@ -1,17 +1,20 @@
-<script setup>
+<script>
 import AppHero from './components/AppHero.vue';
 import AppTitle from './components/AppTitle.vue';
-
+export default {
+  components:{
+    AppHero,
+    AppTitle
+  }
+}
 </script>
 
 <template>
-  <header>
     <AppTitle />
     <AppHero />
-  </header>
 
 </template>
 
-<style scoped>
+<style>
 
 </style>
